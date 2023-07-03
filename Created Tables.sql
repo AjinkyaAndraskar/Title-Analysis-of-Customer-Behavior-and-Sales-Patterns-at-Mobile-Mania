@@ -89,8 +89,5 @@ VALUES (5, 'David Brown', 'david@example.com', 'Engineer');
 
 
 
-select * from Customer
-select * from Orders
-select * from Products
-select * from Employee
+
 
