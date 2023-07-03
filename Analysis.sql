@@ -4,7 +4,8 @@ SELECT *
 FROM Customer
 WHERE customer_name LIKE 'John%';
 
----Using the CASE statement, write a SQL query to assign a "high" label to all customer id who have made more than 3 orders, a "medium" label to those who have made 2-3 orders, and a "low" label to those who have made less than 2 orders from the orders table. The expected output should not contain any redundant/duplicate data.
+---'Using the CASE statement, write a SQL query to assign a "high" label to all customer id who have made more than 3 orders, a "medium" label to those who have made 
+--2-3 orders, and a "low" label to those who have made less than 2 orders from the orders table. The expected output should not contain any redundant/duplicate data'.
 
 SELECT DISTINCT
     customer_id,
@@ -69,8 +70,9 @@ ORDER BY
 
 
 
----Write a SQL command to alter the products table by adding a unique key constraint uk_product_name on the product_name field. Hint: Create a new table with the name products along with the unique schema name and alter that table. The table can contain the below column names: product_id INT PRIMARY KEY, product_name VARCHAR(100), category VARCHAR(50), price DECIMAL(10, 2)
--- Create a new table with the desired schema and column names
+---Write a SQL command to alter the products table by adding a unique key constraint uk_product_name on the product_name field. Hint: Create a new table with
+--the name products along with the unique schema name and alter that table. The table can contain the below column names: product_id INT PRIMARY KEY, 
+--product_name VARCHAR(100), category VARCHAR(50), price DECIMAL(10, 2).Create a new table with the desired schema and column names
 
 -- Create the schema
 create schema itresume2e1de6b988261328afea181c4981b960;
