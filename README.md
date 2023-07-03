@@ -26,7 +26,8 @@ e) Calculate moving averages: Utilize window functions to calculate the three-or
 
 
 # Methodology :-
-The analysis is conducted through SQL queries to extract relevant information from the database. The queries cover various aspects, including customer behavior, product popularity, sales trends, customer activity, and moving averages.
+The analysis is conducted through SQL queries to extract relevant information from the database. The queries cover various aspects, 
+including customer behavior, product popularity, sales trends, customer activity, and moving averages.
 
 # Results and Findings :-
 a) Customer Behavior Analysis:
